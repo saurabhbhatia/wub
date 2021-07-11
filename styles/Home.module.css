@@ -1,11 +1,6 @@
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  @apply font-body flex flex-col justify-center items-center;
 }
 
 .main {
@@ -48,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  @apply font-heading;
 }
 
 .title,
