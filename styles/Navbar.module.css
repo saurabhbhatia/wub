@@ -1,0 +1,12 @@
+.primaryMenu {
+    @apply flex w-1/3 justify-center items-center font-heading;
+}
+.secondMenu {
+    @apply flex w-1/3 justify-center items-center font-heading;
+}
+.menuItems li {
+    @apply inline px-4;
+}
+.listItem {
+    @apply flex justify-center items-center;
+}
