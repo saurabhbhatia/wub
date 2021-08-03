@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from './NavBar.module.css'
+import styles from '../styles/NavBar.module.css'
 
 const NavBar: React.FC = () => {
 
@@ -15,9 +15,9 @@ const NavBar: React.FC = () => {
                     </li>
                 </ul>
             </div>
-            <div>
+            <Link href="/resume">
                 <a className="w-full h-4 font-heading text-5xl">Resume</a>
-            </div>
+            </Link>
             <div className={styles.secondMenu}>
                 <ul className={styles.menuItems}>
                     <li className={styles.listItem}>Writing</li>

@@ -1,11 +1,14 @@
 import React from "react";
-import NavBar from "./navbar/NavBar";
+import NavBar from "./NavBar";
+import styles from '../styles/PageLayout.module.css'
 
 export default function PageLayout({ children }) {
     return (
         <>
             <NavBar />
-            <main>{children}</main>
+            <div className={styles.container}>
+                <main className={styles.main}>{children}</main>
+            </div>
         </>
     )
 }

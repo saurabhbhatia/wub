@@ -1,0 +1,27 @@
+.resumeSummarySection {
+    @apply w-2/3 px-2;
+}
+
+.resumeSummarySectionTitle {
+    @apply font-bold text-3xl py-4 text-center;
+}
+
+.resumeSummarySectionText {
+    @apply text-justify;
+}
+
+.resumeSummarySectionSubTitle {
+    @apply text-center font-bold text-xl py-4;
+}
+
+.resumeTechSection {
+    @apply w-1/3 px-2;
+}
+
+.resumeTechSectionTitle {
+    @apply font-bold text-3xl py-4 text-center;
+}
+
+.resumeTechSectionList {
+    @apply text-center;
+}
