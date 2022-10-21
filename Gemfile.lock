@@ -96,7 +96,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    roda (3.60.0)
+    roda (3.61.0)
       rack
     rouge (3.30.0)
     ruby2_keywords (0.0.5)
@@ -112,7 +112,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     webrick (1.7.0)
-    zeitwerk (2.6.0)
+    zeitwerk (2.6.1)
 
 PLATFORMS
   x86_64-darwin-20
